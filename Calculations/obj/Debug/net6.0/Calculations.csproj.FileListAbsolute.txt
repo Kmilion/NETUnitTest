@@ -1,0 +1,15 @@
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\bin\Debug\net6.0\Calculations.exe
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\bin\Debug\net6.0\Calculations.deps.json
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\bin\Debug\net6.0\Calculations.runtimeconfig.json
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\bin\Debug\net6.0\Calculations.dll
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\bin\Debug\net6.0\Calculations.pdb
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\obj\Debug\net6.0\Calculations.csproj.AssemblyReference.cache
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\obj\Debug\net6.0\Calculations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\obj\Debug\net6.0\Calculations.AssemblyInfoInputs.cache
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\obj\Debug\net6.0\Calculations.AssemblyInfo.cs
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\obj\Debug\net6.0\Calculations.csproj.CoreCompileInputs.cache
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\obj\Debug\net6.0\Calculations.dll
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\obj\Debug\net6.0\refint\Calculations.dll
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\obj\Debug\net6.0\Calculations.pdb
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\obj\Debug\net6.0\Calculations.genruntimeconfig.cache
+C:\Users\Gonzalo\RiderProjects\Calculations\Calculations\obj\Debug\net6.0\ref\Calculations.dll
