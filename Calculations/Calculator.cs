@@ -1,13 +1,15 @@
 namespace Calculations;
 
-public static class Calculator
+public class Calculator
 {
-    public static int Add(int a, int b)
+    public IEnumerable<int> FiboNumbers => new List<int> {1, 1, 2, 3, 5, 8, 13};
+
+    public int Add(int a, int b)
     {
         return a + b;
     }
 
-    public static double AddDouble(double a, double b)
+    public double AddDouble(double a, double b)
     {
         return a + b;
     }

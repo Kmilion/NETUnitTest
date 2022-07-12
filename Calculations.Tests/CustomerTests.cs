@@ -2,26 +2,36 @@ using Xunit;
 
 namespace Calculations.Tests;
 
+[Collection("Customer")]
 public class CustomerTests
 {
+    private readonly CustomerFixture _customerFixture;
+
+    public CustomerTests(CustomerFixture customerFixture)
+    {
+        _customerFixture = customerFixture;
+    }
+
     [Fact]
     public void CheckNameNotEmpty()
     {
-        Assert.NotNull(Customer.Name);
-        Assert.False(string.IsNullOrEmpty(Customer.Name));
+        var customer = _customerFixture.Customer;
+        Assert.NotNull(customer.Name);
+        Assert.False(string.IsNullOrEmpty(customer.Name));
     }
 
     [Fact]
     public void CheckLegiForDiscount()
     {
-        Assert.InRange(Customer.Age, 25, 35);
+        var customer = _customerFixture.Customer;
+        Assert.InRange(customer.Age, 25, 35);
     }
 
     [Fact]
     public void GetOrdersByNameNotNull()
     {
-        var cust = new Customer();
-        var exceptionDetails = Assert.Throws<ArgumentException>(() => cust.GetOrdersByName(null));
+        var customer = _customerFixture.Customer;
+        var exceptionDetails = Assert.Throws<ArgumentException>(() => customer.GetOrdersByName(null));
         Assert.Equal("Hello", exceptionDetails.Message);
     }
 

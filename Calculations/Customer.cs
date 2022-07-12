@@ -2,14 +2,19 @@ namespace Calculations;
 
 public class Customer
 {
-    public static string Name => "Gonzalo";
-    public static int Age => 35;
+    public string Name => "Gonzalo";
+    public int Age => 35;
 
     public virtual int GetOrdersByName(string? name)
     {
         if (string.IsNullOrEmpty(name))
             throw new ArgumentException("Hello");
         return 100;
+    }
+
+    public string GetFullName(string firstName, string lastName)
+    {
+        return $"{firstName} {lastName}";
     }
 }
 
