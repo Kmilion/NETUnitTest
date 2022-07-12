@@ -16,4 +16,4 @@ using Xunit;
 // The following GUID is for the ID of the typelib if this project is exposed to COM.
 
 [assembly: Guid("5f380430-81ed-47de-93b1-3fd5450f3795")]
-[assembly:TestCollectionOrderer("Calculations.Tests.TestCollectionOrderer","Calculations.Tests")]
+[assembly: TestCollectionOrderer("Calculations.Tests.TestCollectionOrderer", "Calculations.Tests")]
